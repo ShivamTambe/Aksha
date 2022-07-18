@@ -1,0 +1,8 @@
+
+#visibile{
+    background-color: #000000;
+    visibility: visible;
+}
+#notvisible{
+    visibility: hidden;
+}

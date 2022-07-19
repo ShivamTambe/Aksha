@@ -7,8 +7,8 @@ function Container(){
                     <div className="logot">अक्ष</div>
                 <div className="navbtns">
                     <a href="#home" ><div className="navbtn" >Home</div></a>
-                    <a href="#3rd" ><div className="navbtn" >Key Features</div></a>
-                    <a href="#44th"><div className="navbtn" >Application</div></a>
+                    <a href="#3rd" ><div className="navbtn" >Features</div></a>
+                    <a href="#44th"><div className="navbtn" >Applications</div></a>
                     <a href="#6th" ><div className="navbtn" >About Us</div></a>
                     <a href="#7th" ><div className="navbtn" >Contact Us</div></a>
                 </div>
@@ -17,7 +17,7 @@ function Container(){
             <div className="pg1">
                 <div className="text1">
                    <div className="aksha">AKSHA</div>
-                   <div className="adis">AI powered Video surveillance solution</div>
+                   <div className="adis">AI-powered Video surveillance solution</div>
                 </div>
                 <div className="pg1img"><img src="/imgs/Standard image for banner.jpg" alt="" srcset="" /></div>
             </div>

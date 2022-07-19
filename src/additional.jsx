@@ -3,7 +3,7 @@ import React from "react";
 function Additional(){
     return(
         <div className="additional" id="44th">
-            <div className="title3">APPLICATION</div>
+            <div className="title3">APPLICATIONS</div>
             <div className="applications">
                 <div className="app1">
                     <div className="appfeatures img1">

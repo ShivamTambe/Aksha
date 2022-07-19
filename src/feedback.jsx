@@ -14,19 +14,19 @@ function Feedback(){
                     <div className="test test1">
                             <Nameimg
                                 name="COO, Sharada Industries"
-                                img="https://aksha.algoanalytics.com/images/alert31.png"
+                                img="/imgs/SI_logo.png"
                             />
                             <Experience
-                                exp=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laboriosam, maiores consequuntur repellendus eaque eum dolores nulla nesciunt ratione, voluptatum eveniet aliquid, neque explicabo iure dolor aut adipisci sapiente obcaecati. "
+                                exp=" Aksha has empowered our investments into the CCTV setup. Human monitoring efforts have reduced a lot. The ability to detect abnormal unforeseen events along with specific important entities without a lot of CAPEX is wonderful."
                             />
                     </div>
                     <div className="test test2">
                         <Experience
-                            exp=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laboriosam, maiores consequuntur repellendus eaque eum dolores nulla nesciunt ratione, voluptatum eveniet aliquid, neque explicabo iure dolor aut adipisci sapiente obcaecati. "
+                            exp=" Aksha has given us a different outlook into how CCTV can be used. The ability to detect abnormal events and then highlighting them has been really useful. It has also been eye opening w.r.t. what all scenarios can be highlighted and avoided. We are looking forward to the new updates and innovations in the pipeline from Aksha."
                         />
                         <Nameimg
                             name="COO, Sharada Industries"
-                            img="https://aksha.algoanalytics.com/images/alert31.png"
+                            img="/imgs/united-industries-logo-90x90.jpg"
                         />
                     </div>
                   

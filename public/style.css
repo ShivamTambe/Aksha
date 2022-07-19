@@ -110,7 +110,7 @@ body{
 }
 .sec1{
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 24px;
 }
 .secinfo{
     width: 400px;
@@ -407,7 +407,7 @@ body{
             /* SPEC_TESTIMONIOUS */
 .ainfo{
     
-    margin-right: 18vw;
+    margin-right: 22vw;
     width: auto;
 }
 .spec_test{
@@ -419,7 +419,7 @@ body{
 }
 .specification{
     width: 300px;
-    margin-left: 12vw;
+    margin-left: 6vw;
     height: 450px;
     /* border: 2px solid green; */
 }
@@ -680,6 +680,7 @@ body{
     position: relative;
     right: -900px;
     top: -280px;
+    visibility: hidden;
 }
 .addinfo{
     width: 400px;
@@ -698,6 +699,7 @@ body{
             /* border: 2px solid brown; */
             background-image: linear-gradient(105deg,hsla(0,0%,100%,.8),hsla(0,0%,100%,.8) 50%,transparent 0),url(/imgs/map.jpg);
             background-size: 100%;
+            background-repeat: no-repeat;
             border-radius: 3px;
             width: 100%;
             width: 90%;
@@ -781,3 +783,43 @@ body{
             transform: translateY(2px);
           }
 
+
+
+
+          .test1 .experience {
+            left: -308px;
+        }
+        .nameimg img {
+            width: 96px;
+        }
+        .nameimg{
+            left: -170px;
+        }
+        .test2 .nameimg{
+            top: -2px;
+        }
+        .info2 div {
+            margin: 5px 0;
+            font-size: 18px;
+            width: 1184px;
+        }
+
+
+        .about{
+            margin-top: -93px;
+        }
+        .aboutimg img {
+            top: 103px;
+            left: -113px;
+            width: 240px;
+        }
+        .aboutt {
+            margin-right: 35vw;
+        }
+        .aboutinfo {
+            width: 897px;
+        }    
+        .aboutinfo {
+            font-size: 1.3em;
+        }
+        

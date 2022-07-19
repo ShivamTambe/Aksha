@@ -70,10 +70,10 @@ function Corosoul(){
                 </div>
             </div> 
             </div>
-            <h1 className="key" onClick={Console}>FEATURES</h1>
+            <h1 className="key" onClick={Console} data-aos="fade-up">FEATURES</h1>
             <div className="slides customer-logos slider">
                 <a href='#visible'>
-                    <div className="slide"
+                    <div className="slide" data-aos="fade-up" data-aos-delay="150"
                         title={'/imgs/Activity_ Movement tracking.png'}
                         onClick={Show}
                     >
@@ -82,7 +82,7 @@ function Corosoul(){
                     </div>
                 </a>
                 <a href="#visible">
-                    <div className="slide" 
+                    <div className="slide"  data-aos="fade-up" data-aos-delay="150"
                         onClick={Show} 
                         title={'/imgs/Object detection.png'}
                     >
@@ -91,7 +91,7 @@ function Corosoul(){
                     </div>
                 </a>
                 <a href="#visible">
-                    <div className="slide"
+                    <div className="slide" data-aos="fade-up" data-aos-delay="150"
                     title={'/imgs/Real time alerts.png'}
                     onClick={Show}
                     >
@@ -101,7 +101,7 @@ function Corosoul(){
                     </div>
                 </a>
                 <a href="#visible">
-                    <div className="slide" onClick={Show}
+                    <div className="slide" onClick={Show} data-aos="fade-up" data-aos-delay="150"
                     title={'/imgs/Unusual activity (anomaly) detection .png'}
                     >
                         <div className="keytitle">Unusual Activity Detection</div>
@@ -109,7 +109,7 @@ function Corosoul(){
                     </div>
                 </a>
                 <a href="#visible">
-                    <div className="slide" onClick={Show}
+                    <div className="slide" onClick={Show} data-aos="fade-up" data-aos-delay="150"
                     title={'/imgs/User defined alerts.png'}
                     >
                         <div className="keytitle">User Defined Alerts</div>
@@ -117,7 +117,7 @@ function Corosoul(){
                     </div>
                 </a>
                 <a href="#visible">
-                    <div className="slide" onClick={Show}
+                    <div className="slide" onClick={Show} data-aos="fade-up" data-aos-delay="150"
                     title={'/imgs/24x7 monitoring.png'}
                     >
                         <div className="keytitle">24x7 Monitoring</div>

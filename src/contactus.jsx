@@ -39,8 +39,8 @@ function Contactus(){
       }
 
     return(
-        <div className="contact" id="7th">
-             <div className="ainfo" data-aos="flip-left">
+        <div className="contact" id="7th" >
+             <div className="ainfo" data-aos="slide-right" data-aos-duration="8000">
                 <div className="contacttitle">Contact Us</div>
                 <div className="contactform">
                     <form>
@@ -53,7 +53,7 @@ function Contactus(){
                     </form>
                 </div>
             </div>
-            <div className="address">
+            <div className="address" data-aos="slide-left">
                         <div className="addtitle">Address</div>
                         <div className="addinfo">Alacrity India Innovation Centre, Ideas to Impacts Building. Pallod Farm Lane 3, Near Vijay Sales, Baner Road, Pune - 411045</div>
                 </div>

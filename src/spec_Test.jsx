@@ -5,10 +5,10 @@ function Spec_test(){
     return(
         <div className="spec_test" id="5ht">
             <div className="specification">
-                <div className="spectitle">
+                <div className="spectitle" data-aos="slide-right">
                     Technical Specifications
                 </div>
-                <div className="spcefic">
+                <div className="spcefic" data-aos="slide-left">
                     <ul>
                         <li>Smart frame based real time analysis</li>
                         <li>Scalable from 1 to 24 cameras</li>

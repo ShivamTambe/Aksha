@@ -25,7 +25,7 @@ function Feedback(){
                             exp=" Aksha has given us a different outlook into how CCTV can be used. The ability to detect abnormal events and then highlighting them has been really useful. It has also been eye opening w.r.t. what all scenarios can be highlighted and avoided. We are looking forward to the new updates and innovations in the pipeline from Aksha."
                         />
                         <Nameimg
-                            name="COO, Sharada Industries"
+                            name="Partner, United Toolkits"
                             img="/imgs/united-industries-logo-90x90.jpg"
                         />
                     </div>

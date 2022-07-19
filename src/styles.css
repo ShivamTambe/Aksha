@@ -9,7 +9,7 @@
         left: 10px;
     }
     .ainfo{
-        margin-right: 12vw;
+        margin-right: 24vw;
     }
     .adis{
         margin-left: 100px;
@@ -21,17 +21,22 @@
         right:-260px;
     }
     .second{
-        margin-left: 80px;
+        margin-left: 7px;
     }
     .pg1img img{
         right: -395px;
+    }
+    .pg1img img {
+        right: -369px;
+        width: 698px;
     }
     .title3{
         position: relative;
         left: 15px;
     }
     .key{
-        margin-left: 160px;
+        margin-left: -8px;
+        
     }
     .img1 .apptitle {
         position: relative;
@@ -103,6 +108,47 @@
         right: -843px;
         top: -303px;
     }
+    .sec1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .secinfo{
+        font-size: 24px;
+    }
+    .aboutimg img {
+        top: 103px;
+        left: -113px;
+        width: 240px;
+    }
+    .aboutt {
+        margin-right: 35vw;
+    }
+    .aboutinfo {
+        width: 897px;
+    }    
+    .aboutinfo {
+        font-size: 1.3em;
+    }
+    .info2 div {
+        margin: 5px 0;
+        font-size: 18px;
+        width: 1184px;
+    }
+    .test1 .experience {
+        left: -308px;
+    }
+    .nameimg img {
+        width: 96px;
+    }
+    .nameimg{
+        left: -170px;
+    }
+    .test2 .nameimg{
+        top: -2px;
+    }
+    .ainfo {
+        margin-right: 20vw;
+    }
   }
   @media (max-width:1400px) and (min-width:1100px) {
         .navbtns{
@@ -132,6 +178,7 @@
         right: -223px;
     }
   }
+
   @media (max-width:1300px) and (min-width:1200px){
         .navbtns{
             right: -57px;
@@ -144,6 +191,36 @@
             right: -200px;
         }
   }
+  @media (max-width:1400px) and (min-width:1350px){
+    .pg1img img {
+        right: -330px;
+    }
+    .navbtns {
+        right: -17vw;
+    }
+    .info2 div{
+        width: 1089px;
+    }
+  }
+  @media (max-width:1350px) and (min-width:1200px){
+    .pg1img img {
+        right: -24vw;
+    }
+    .navbtns {
+        right: -16vw;
+    }
+    .info2 div{
+        width: 1089px;
+    }
+  }
+
+  @media (max-width:1350px) and (min-width:1270px){
+    .aboutinfo {
+        width: 788px;
+    }
+
+  }
+
   @media (max-width:1200px) and (min-width:1100px){
   .slick-next{
     top: -131px;
@@ -159,9 +236,27 @@
   .ainfo {
     margin-right: 0vw;
 }
-.navbtns{
-    right: -50px;
+.navbtns {
+    right: -15vw;
 }
+.ainfo {
+    margin-right: 5vw;
+}
+.info2 div {
+    margin: 5px 0;
+    font-size: 15px;
+    width: 810px;
+}
+.test1 .experience {
+    left: -225px;
+}
+.nameimg {
+    left: -120px;
+}
+.aboutinfo {
+    width: 650px;
+}
+
 .pg1img img{
     right: -220px;
 }
@@ -172,6 +267,22 @@
     margin-left: -180px;
 } */
 }
+@media (max-width: 1200px) and (min-width: 1150px){
+.pg1img img {
+    right: -21vw;
+}
+.navbtns {
+    right: -16vw;
+}
+}
+
+@media (max-width:1280px) and (min-width:1100px){
+    .logot {
+        left: -4vw;
+    }
+}
+
+
   @media (max-width:1100px) {
   .navbtns{
     right: -126px;
@@ -179,8 +290,8 @@
   .pg1img img{
     right: -300px;
 }
-.logot{
-    left: -40px;
+.logot {
+    left: 0vw;
 }
 .logoimg img{
     left: 1vw;
@@ -246,6 +357,81 @@ left: 41px;
     position: relative;
 left: -28px;
 }
+.aboutimg img{
+    width: 240px;
+    top: 95px;
+    left: 33px;
+}
+.pg1img img {
+    right: -21vw;
+}
+}
+
+@media (max-width:1270px) and (min-width:1200px){
+.info2 div {
+    width: 889px;
+}
+.ainfo {
+    margin-right: 10vw;
+}
+.test1 .experience {
+    left: -258px;
+}
+.nameimg {
+    left: -146px;
+    top: 61px;
+}
+.test2 .nameimg {
+    top: 16px;
+    left: -122px;
+}
+.about {
+    margin-top: -31px;
+}
+.aboutinfo {
+    width: 697px;
+}
+}
+
+
+@media (max-width:1440px) and (min-width:1400px){
+    .address {
+        right: -840px;
+    }    
+
+}
+@media (max-width:1400px) and (min-width:1370px){
+    .address {
+        right: -804px;
+    }
+}
+
+@media (max-width:1360px) and (min-width:1100px){
+    .contact{
+        height: 462px;
+        width: 100%;
+        position: relative;
+        left: -5vw;
+    }
+    
+}
+@media (max-width:1250px) and (min-width:1000px){
+    .contact{
+        height: 462px;
+        width: 100%;
+        position: relative;
+        background-image: none;
+        left: 2vw;
+        top: 6vw;
+    }
+    .address{
+        visibility: visible;
+        color: black;
+        top: -39vw;
+        font-size: 28px;
+        left: 51vw;
+    }
+    
 }
 @media (max-width:1100px) and (min-width:1070px){
 .corosoul {
@@ -288,11 +474,11 @@ left: 60px;
 .second{
     margin-bottom: 18px;
 }
-.sec1{
-    font-size: 21px;
+.sec1 {
+    font-size: 19px;
 }
-.secinfo{
-    font-size: 21px;
+.secinfo {
+    font-size: 19px;
     width: 300px;
 }
 .info2 div{
@@ -310,7 +496,11 @@ left: 60px;
     left: 4px;
 }
 .address{
-    top: -227px;
+    visibility: visible;
+        color: black;
+        top: -39vw;
+        font-size: 28px;
+        left: 88vw;
 }
 .addinfo{
     width: 306px;
@@ -321,14 +511,26 @@ left: 60px;
 .slides{
     margin-left: -5px;
 }
+.aboutimg img{
+    width: 173px;
+    top: 112px;
+    left: 33px;
+}
+.aboutinfo{
+    width: 660px;
+    font-size: 1.5rem;
+}
+    .aboutt {
+        margin-right: 24vw;
+    }
 }
 @media (max-width:1070px) and (min-width:1000px){
-    .secinfo{
-        font-size: 21px;
+    .secinfo {
+        font-size: 19px;
         width: 300px;
     }
-    .sec1{
-        font-size: 21px;
+    .sec1 {
+        font-size: 19px;
     }
     .second{
         margin-left: 18px;
@@ -366,7 +568,7 @@ position: relative;
 margin-left: 3vw;
 }
 .aboutt{
-margin-right: 0vw;
+margin-right: 18vw;
 }
 .contact{
 left: 60px;
@@ -389,10 +591,15 @@ left: 60px;
     left: 4px;
 }
 .address{
-    top: -227px;
+    visibility: visible;
+        color: black;
+        top: -39vw;
+        font-size: 28px;
+        left: 88vw;
 }
 .addinfo{
     width: 306px;
+    font-size: 1.1rem;
 }
 .btn{
     left: -200px;
@@ -420,6 +627,7 @@ left: 60px;
 }
 .addinfo{
     width: 306px;
+    font-size: 25px;
 }
 .btn{
     left: -200px;
@@ -427,11 +635,61 @@ left: 60px;
 .slide img{
     width: 100%;
 }
+.aboutinfo{
+    width: 660px;
+    font-size: 1.3rem;
+}
+.aboutimg img{
+    width: 173px;
+    top: 112px;
+    left: 33px;
+}
+.address{
+    visibility: visible;
+        color: black;
+        top: -39vw;
+        font-size: 28px;
+        left: 88vw;
+}
+.aboutinfo {
+    font-size: 1.6rem;
+}
 }
 .spcefic li{
 width: 377px;
 }
 
+@media (max-width:1100px) and (min-width:1000px){
+.info2 div {
+    margin: 5px 0;
+    font-size: 18px;
+    width: 684px;
+}
+.test1 .experience {
+    left: -206px;
+    font-size: 15px;
+    width: 520px;
+}
+
+
+
+.info2 div {
+    left: -113px;
+}
+.test2 .experience {
+    position: relative;
+    left: -40px;
+    font-size: 15px;
+}
+.about {
+    margin-top: -54px;
+}
+.contact{
+    top: 0;
+}
+
+
+}
 @media (max-width:900px) and (min-width:100px){
 .navbtns {
 right: -86px;
@@ -920,6 +1178,11 @@ font-size: 4.5rem;
     right: -53px;
     top: 246px;
 }
+.pg1img img {
+    width: 91vw;
+    right: -4px;
+    top: 149px;
+}
 .second {
     margin-top: -34px;
 }
@@ -1235,4 +1498,195 @@ position: relative;
 }
 .contactform form textarea{
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1400px) and (min-width:1350px){
+    .pg1img img {
+        right: -330px;
+    }
+    .navbtns {
+        right: -17vw;
+    }
+  }
+  @media (max-width:1350px) and (min-width:1200px){
+    .pg1img img {
+        right: -24vw;
+    }
+    .navbtns {
+        right: -16vw;
+    }
+  }
+
+  @media (max-width:2000px) and (min-width:1250px){
+        .address{
+            visibility: hidden;
+            color: transparent;
+        }
+  }
+
+  @media (max-width:1000px) and (min-width:0px){
+    .contact{
+        background-image: none;
+        left: -30px;
+    }
+    .address{
+        color: black;
+        left: -72px;
+        top: -32vw;
+    }
+    .addinfo {
+        position: relative;
+        left: 69vw;
+        top: -147px;
+        width: 270px;
+        font-size: 25px;
+        line-height: 35px;
+    }    
+    .addtitle{
+        left: 69vw;
+        top: -150px;
+        font-size: 30px;
+    }
+}
+@media (max-width:1000px) and (min-width:900px){
+ .address{
+   left: -27px;
+    top: -41vw;
+}
+.navbtns {
+    right: -95px;
+}
+.pg1img img {
+    right: -17vw;
+    top: -34px;
+}
+.text1{
+    top: 39px;
+    left: -236px;
+}
+.aksha {
+    font-size: 110px;
+    left: 117px;
+}
+.adis {
+    font-size: 1.5em;
+    width: 747px;
+}
+.second {
+    margin-top: -180px;
+    position: relative;
+    left: -2vw;
+}
+.sec1 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.secinfo{
+    font-size: 18px;
+    position: relative;
+    top: 26px;
+    left: -21px;
+}
+.logot {
+    left: 4vw;
+}
+.specification{
+    margin-left:0vw;
+    }
+    .spectitle{
+    font-size: 5.5rem;
+    width: 1000px;
+    }
+    .spcefic{
+    font-size: 3rem;
+    }
+    .spcefic li{
+    font-size: 2.3rem;
+    width: 1000px;
+    }
+    .customer{
+    width: 1000px;
+    font-size: 5.5rem;
+    }
+    .info2 div{
+    width: 1000px;
+    font-size: 26px;
+    position: relative;
+    left: -110px;
+    }
+    .test1 img{
+    position: relative;
+    left: -87px;
+    }
+    .test2{
+    position: relative !important;
+    left: -45px !important;
+    }
+    .corosoul{
+        margin-top: -58px;
+    }
+    .keytitle{
+        font-size :2rem;
+    }
+    .feedback {
+        position: relative;
+        top: 372px;
+        left: -38vw;
+    }
+    .spectitle {
+        font-size: 4.5rem;
+    }
+    .customer {
+        width: 1000px;
+        font-size: 4.5rem;
+    }
+    .test1 .experience {
+        width: 814px;
+        left: -86px;
+        font-size: 20px;
+    }
+    .about {
+        margin-top: 359px;
+        margin-left: -10vw;
+    }
+    .test2 .experience{
+        width: 814px;
+        font-size: 20px;
+        position: relative;
+        left: -39px;
+    }  
+    .ainfo1{
+        font-size: 16px;
+        width: 65vw;
+    }
+    .ainfo2{
+        font-size: 16px;
+        width: 65vw;
+    }
+    .aboutt {
+        margin-right: 13vw;
+    }
+    .address {
+        left: -27px;
+        top: -35vw;
+    }
+    .btn{
+        left: -200px;
+    }
+    
+}
+
+@media (max-width:950px) and (min-width:900px){
+    .test1 .experience {
+        width: 814px;
+        left: -148px;
+        font-size: 20px;
+    }
 }

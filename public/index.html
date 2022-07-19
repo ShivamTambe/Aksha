@@ -38,7 +38,7 @@ $('.customer-logos').slick({
   arrows: false,
   autoplaySpeed: 2000,
   pauseOnHover: true,
-  autoplay:true,
+  // autoplay:true,
   accessibility: true,
   responsive: [
     {
@@ -60,6 +60,16 @@ $('.customer-logos').slick({
         infinite: true,
         centerMode: true,
         dots: true,
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        centerMode: true,
+        dots: false,
       }
     }
     // You can unslick at a given breakpoint now by adding:

@@ -3,7 +3,7 @@ import './App.css';
 
 
 function Corosoul(){
-    const visibility_initial = "notvisible";
+    const visibility_initial = "invisible";
     const title_initial = "Activity";
     const imgSource_initial = "kahitari"
     const [visiblee, setVisible] = useState(visibility_initial);
@@ -63,7 +63,7 @@ function Corosoul(){
            
             
             <div className="show" id={visiblee} onScroll={noscroll}>
-                <div className="hidee" onClick={Invisible}>Hide
+                <div className="hidee" onClick={Invisible}>
                 <div className="clicked_slide" onClick={Show}>
                         <div className="keytitle">{title}</div>
                         <img src={imgsource} alt="" />
@@ -127,7 +127,6 @@ function Corosoul(){
 
 
 {/*                         
-
                     <div className="slide"><img src="/imgs/Activity_ Movement tracking.png" alt="" /></div>
                     <div className="slide"><img src="/imgs/Object detection.png" alt="" /></div>
                     <div className="slide"><img src="/imgs/Real time alerts.png" alt="" /></div>

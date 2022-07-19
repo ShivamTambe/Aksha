@@ -1,7 +1,7 @@
 
 #visibile{
-    background-color: #000000;
     visibility: visible;
+    background-color: brown
 }
 #invisible{
     visibility: hidden;

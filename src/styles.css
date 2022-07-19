@@ -170,7 +170,6 @@
 } */
 /* .seclastb{
     margin-left: -180px;
-
 } */
 }
   @media (max-width:1100px) {
@@ -426,7 +425,7 @@ left: 60px;
     left: -200px;
 }
 .slide img{
-    width: 78%;
+    width: 100%;
 }
 }
 .spcefic li{
@@ -529,6 +528,16 @@ left: 100px;
     margin-left: -36px;
 
 }
+.slide img{
+    width: 68%;
+}
+.corosoul{
+    left: -175px;
+}
+.slide img{
+    position: relative;
+    left: 134px;
+}
 
 }
 
@@ -575,7 +584,7 @@ left: -85px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-top: 317px;
+margin-top: 35px;
 }
 .corosoul {
 width: 100vw;
@@ -598,7 +607,7 @@ width: 747px;
     
     }
 .key {
-margin-left: 99px;
+    margin-left: 321px;
 font-size: 4.5rem;
 }
 .additional {
@@ -776,13 +785,13 @@ font-weight: 700;
 .contactform form input {
     width: 653px;
     height: 65px;
-background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 .contactform form textarea {
     width: 653px;
     height: 165px;
-background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 .feedbackinfo{
@@ -839,8 +848,274 @@ font-size: 4.5rem;
 .logoimg img {
     left: 84vw;
 }
+.hidee{
+    background-size: 50px;
+    right: 34px;
+    width: 50px;
+    height: 44px;
+
 }
-@media (max-width:400px) and (min-width:300px){
+.show {
+    height: 740px;
+    width: 104vw;
+    left: 175px;
+}
+.clicked_slide img {
+    width: 90vw;
+    position: relative;
+    top: 50px;
+}
+.appimg img {
+    width: 250px;
+    left: 98px;
+}
+
+.img1 .apptitle {
+    left: -243px;
+}
+.img2 .apptitle {
+    left: -186px;
+}
+.img3 .apptitle {
+    left: -238px;
+}
+.img4 .apptitle {
+    left: -212px;
+}
+.img5 .apptitle {
+    left: -222px;
+}
+.img6 .apptitle {
+    left: -238px;
+}
+.img7 .apptitle {
+    left: -201px;
+}
+.img8 .apptitle {
+    left: -222px;
+}
+.test1 .experience {
+    left: -85px;
+}
+}
+@media (max-width:500px) and (min-width:100px){
+.logot {
+    left: 2px;
+}
+/* .html{
+    width: 110vw;
+} */
+.aksha {
+    left: -44px;
+    font-size: 100px;
+}
+.adis{
+    font-size: 1em;
+    width: 525px;
+    left: -114px;
+}
+
+.pg1img img {
+    width: 122vw;
+    right: -53px;
+    top: 246px;
+}
+.second {
+    margin-top: -34px;
+}
+.video video {
+    width: 92vw;
+    height: 251px;
+}
+.sec1 {
+    font-size: 26px;
+    width: 346px;
+}
+ .secinfo {
+    font-size: 26px;
+    width: 346px;
+    left: -42px;
+}
+.corosoul {
+    margin-top: -118px;
+}
+.key {
+    margin-left: 279px;
+    font-size: 3.5rem;
+} 
+.slide img {
+    width: 46%;
+    top: -55px;
+    left: 68px;
+}
+.title3{
+    left: -88px;
+}
+.img1{
+    left: -33vw;
+
+}
+.apptitle{
+    font-size: 2rem;
+}
+.img2 {
+    top: 333px;
+    left: -328px;
+}
+.img3 {
+    top: 605px;
+    left: -107vw;
+}
+.img4 {
+    top: 867px;
+    left: -148vw;
+}
+.img5 {
+    top: 774px;
+    left: -38vw;
+}
+.img6 {
+    top: 1014px;
+    left: -304px;
+}
+.img7 {
+    top: 1247px;
+    left: -112vw;
+}
+.img8 {
+    top: 1542px;
+    left: -141vw;
+}
+.spec_test {
+    margin-top: 1557px;
+}
+.additional {
+    margin-left: 181px;
+}
+.spectitle{
+    font-size: 2.5rem;
+}
+.spcefic li {
+    font-size: 2rem;
+    width: 400px;
+}
+.spectitle {
+    left: 18px;
+}
+.feedbackinfo{
+    left: 58vw;
+    font-size: 2.5rem;
+}
+.customer{
+    font-size: 2.5rem;
+}
+.info2 div {
+    display: flex;
+    flex-direction: column;
+}
+.test1 img {
+    left: -54px;
+}
+.test1 p {
+    left: -61px;
+}
+.test1 .experience {
+    left: 87px;
+    text-align: center;
+    width: 360px;
+    font-size: 18px;
+}
+.test2 .experience {
+    left: 54px;
+    top: 86px;
+    text-align: center;
+    width: 360px;
+    font-size: 18px;
+}
+.test2 img {
+    position: relative;
+    left: -84px;
+    top: -370px;
+}
+
+.test2 p {
+    left: -88px;
+    top: -383px;
+}
+.about {
+    margin-top: -268px;
+}
+.abouttitle {
+    font-size: 30px;
+    left: -47vw;
+}
+.ainfo1 {
+    font-size: 20px;
+    width: 409px;
+    text-align: center;
+    left: -347px;
+}
+.aboutimg img {
+    top: 323px;
+    width: 305px;
+    left: 8vw;
+}
+.ainfo2 {
+    font-size: 20px;
+    width: 409px;
+    text-align: center;
+    left: -350px;
+    top: 304px;
+}
+.contactform form input {
+    width: 353px;
+    position: relative;
+    left: -108px;
+    height: 38px;
+}
+.contacttitle{
+    left: 87px;
+    font-size: 3rem;
+}
+.contactform form textarea {
+    width: 353px;
+    position: relative;
+    left: -108px;
+    height: 100px;
+}
+.contact {
+    margin-top: 871px;
+    left: 79px;
+}
+.btn{
+    left: -95px;
+}
+.show {
+    height: 807px;
+    width: 99vw;
+    left: 230px;
+}
+.keytitle{
+    font-size: 30px;
+}
+.clicked_slide img {
+    width: 96vw;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.hidee{
+    right: 3px;
+}
+.img5 .apptitle{
+    z-index: 2;
+}
+.logoimg img {
+    left: 72vw;
+}
+
+}
+@media (max-width:400px) and (min-width:100px){
 .appimg img{
 left: 188px;
 }
@@ -851,4 +1126,113 @@ left: 69vw;
 left: -31vw;
 position: relative;
 }
+.video video {
+    width: 97vw;
+    left: -16px;
+    height: 237px;
+}
+.secinfo {
+    left: -70px;
+    top: -38px;
+}
+.key {
+    margin-left: 247px;
+}
+.title3 {
+    left: -110px;
+}
+.slide img {
+    width: 39%;
+    left: 78px;
+}
+.appimg img {
+    left: 103px;
+}
+.img3 {
+    left: -118vw;
+}
+.img4 {
+    left: -165vw;
+}
+.img6{
+    top: 1030px;
+}
+.img7 {
+    top: 1267px;
+    left: -129vw;
+}
+.img8 {
+    top: 1580px;
+    left: -163vw;
+}
+.specification {
+    margin-top: 33px;
+}
+.spcefic li {
+    font-size: 2rem;
+    width: 292px;
+}
+.customer {
+    left: 0vw;
+}
+.feedback{
+    margin-top: 50px;
+}
+.test1 img {
+    left: -81px;
+}
+.test1 p {
+    left: -87px;
+}
+.test2 img {
+    left: -118px;
+}
+.test2 p {
+    left: -120px;
+}
+.test1 .experience {
+    left: 61px;
+}
+.test2 .experience {
+    left: 25px;
+}
+.abouttitle {
+    left: -63vw;
+}
+.ainfo1 {
+    font-size: 19px;
+    width: 345px;
+    text-align: center;
+    left: -341px;
+}
+.aboutimg img {
+    left: -4vw;
+}
+.ainfo2 {
+    font-size: 19px;
+    width: 337px;
+    left: -335px;
+}
+.contact{
+    left: 61px;
+}
+.aksha {
+    left: -55px;
+    font-size: 91px;
+}
+.adis {
+    width: 416px;
+    left: -75px;
+}
+.img4 .apptitle {
+    left: -217px;
+    top: -81px;
+    font-size: 1.7rem;
+}
+.clicked_slide .keytitle {
+    font-size: 35px;
+}
+}
+.contactform form textarea{
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 }

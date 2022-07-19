@@ -138,10 +138,13 @@ body{
 .hidee{
     position: absolute;
     font-size: 30px;
-    right: 0;
+    right: 20px;
     width: 100px;
     height: 100px;
-    background-color: black;
+    background-color: rgb(42, 225, 57);
+    background-image: url('/imgs/cross.png');
+    background-size: 100px;
+    border-radius: 50%;
   
 }
 .corosoul{
@@ -248,13 +251,13 @@ body{
     height: 740px;
     width: 100vw;
     left: -1px;
+    background-color: #1a1a1a;
 }
 .clicked_slide{
     width: 80vw;
     height: 600px;
     position: relative;
     left: -83vw;
-    background-color: #3c4fe0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,7 +266,6 @@ body{
     width: 70vw;
     font-size: 40px;
     height: 50px;
-    background-color: #5adaff;
 }
 .clicked_slide img{
     width: 70vw;
@@ -729,6 +731,7 @@ body{
             width: 500px;
             height: 100px;
             margin: 10px auto;
+            box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
         }
         
         .btn {
@@ -778,7 +781,3 @@ body{
             transform: translateY(2px);
           }
 
-          /* RESPPONSIVENESS */
-
-
-          

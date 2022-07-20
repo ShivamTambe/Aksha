@@ -1,5 +1,6 @@
 html , body{
     overflow-x: hidden;
+    background-color: white;
 }
 .stop{
     overflow-y: hidden;
@@ -138,14 +139,21 @@ body{
 .hidee{
     position: absolute;
     font-size: 30px;
-    right: 20px;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(42, 225, 57);
-    background-image: url('/imgs/cross.png');
-    background-size: 100px;
+    right: 164px;
+    top: 44px;
+    width: 45px;
+    height: 46px;
     border-radius: 50%;
+        background-color: rgb(146, 0, 0);
+        background-image: url(/imgs/cross.png);
+        background-size: 45px;
+        background-repeat: no-repeat;
+        z-index: 2;  
   
+}
+.hidee:hover{
+    background-color: rgb(226, 13, 13);
+    cursor: pointer;
 }
 .corosoul{
     margin: 0 auto;
@@ -257,7 +265,7 @@ body{
     width: 80vw;
     height: 600px;
     position: relative;
-    left: -83vw;
+    left: 12vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -680,7 +688,7 @@ body{
     position: relative;
     right: -900px;
     top: -280px;
-    visibility: hidden;
+    visibility: visible;
 }
 .addinfo{
     width: 400px;
@@ -747,7 +755,9 @@ body{
             color: black;
             cursor: pointer;
             display: inline-flex;
-            font-family: "JetBrains Mono",monospace;
+            /* font-family: "JetBrains Mono",monospace; */
+            font-size: 24px;
+            background-color: #5468ff;
             height: 48px;
             justify-content: center;
             line-height: 1;
@@ -823,3 +833,43 @@ body{
             font-size: 1.3em;
         }
         
+
+
+                /* FOOTER
+                FOOTER */
+
+    .fotter{
+        width: 100vw;
+        height: 50px;
+        background-color: #000000;
+        color: white;
+        margin-top: 126px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slick-dots li{
+        list-style: none;
+        font-size: 20px;
+    }
+    
+    .slick-dots li:before {
+        content:"·";
+        font-size:120px;
+        vertical-align:middle;
+        line-height:20px;
+    }
+
+    input::placeholder { 
+        color: red;
+        opacity: 1; 
+      }
+
+      .appimg img{
+        filter: grayscale();
+      }
+
+
+      

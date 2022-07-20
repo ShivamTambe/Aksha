@@ -8,19 +8,19 @@ function Additional(){
                 <div className="app1">
                     <div className="appfeatures img1" data-aos="fade-right">
                         <div className="appimg">
-                            <img src="/imgs/1.png" alt="" />
+                            <img src="/imgs/1.png" alt=""  />
                         </div>
                         <div className="apptitle">SECURITY</div>
                     </div>
                     <div className="appfeatures img2" data-aos="fade-up">
                         <div className="appimg down">
-                            <img src="/imgs/2.jpg" alt="" />
+                            <img src="/imgs/2nd.jpg" alt="" />
                         </div>
                         <div className="apptitle down">VANDALISM AND THEFT</div>
                     </div>
                     <div className="appfeatures img3" data-aos="fade-up">
                         <div className="appimg down3">
-                            <img src="/imgs/3.jpg" alt="" />
+                            <img src="/imgs/3.png" alt="" />
                         </div>
                         <div className="apptitle down3" >PRODUCT PLACEMENT</div>
                     </div>

@@ -44,11 +44,11 @@ function Contactus(){
                 <div className="contacttitle">Contact Us</div>
                 <div className="contactform">
                     <form>
-                        <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Full Name" required/>
-                        <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email" required/>
-                        <input value={phone} onChange={(e) => setPhone(e.target.value)} type="tel" placeholder="Moblie" required/>
-                        <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization" required/>
-                        <textarea value={message} onChange={(e) => setMessage(e.target.value)} name="" id="" cols="20" rows="10"></textarea>
+                        <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Full Name *" required className="required"/>
+                        <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email *" required className="required"/>
+                        <input value={phone} onChange={(e) => setPhone(e.target.value)} type="tel" placeholder="Moblie *" required className="required"/>
+                        <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization *" required className="required"/>
+                        <textarea value={message} onChange={(e) => setMessage(e.target.value)} name="" placeholder="Your Massage" id="" cols="20" rows="10"></textarea>
                         <button onClick={handleClick}  className="btn">Submit</button>
                     </form>
                 </div>

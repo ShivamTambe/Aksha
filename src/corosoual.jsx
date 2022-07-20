@@ -5,13 +5,19 @@ import './App.css';
 function Corosoul(){
     const visibility_initial = "invisible";
     const title_initial = "Activity";
-    const imgSource_initial = "kahitari"
+    const imgSource_initial = "kahitari";
+    const show_initial = " ";
+
     const [visiblee, setVisible] = useState(visibility_initial);
     const [title, settitle] = useState(title_initial);
     const [imgsource, setImgSource] = useState(imgSource_initial);
+    const [showstyle, setShowStyle] = useState(show_initial);
+
+
     function Show(e){
         console.log("Clicked");
         const visibility = "visible";
+        setShowStyle('showtitle');
         setVisible(visibility);
         const imgsourcee = e.currentTarget.title;
         console.log(imgsourcee);
@@ -55,20 +61,21 @@ function Corosoul(){
     }
     function Invisible(){
         console.log("hey")
-            const invisible = "invisible";
-            setVisible(invisible);
+
+            // const invisible = "invisible";
+            // setVisible(invisible);
+            window.location.reload ();
     }
     return(
         <div className="corosoul" id="3rd">
            
             
             <div className="show" id={visiblee} onScroll={noscroll}>
-                <div className="hidee" onClick={Invisible}>
+                <div className="hidee" onClick={Invisible}></div>
                 <div className="clicked_slide" onClick={Show}>
-                        <div className="keytitle">{title}</div>
+                        <div className="keytitle" id={showstyle} >{title}</div>
                         <img src={imgsource} alt="" />
-                </div>
-            </div> 
+                </div> 
             </div>
             <h1 className="key" onClick={Console} data-aos="fade-up">FEATURES</h1>
             <div className="slides customer-logos slider">

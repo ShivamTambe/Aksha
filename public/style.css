@@ -952,3 +952,25 @@ body{
         transform: scale(1.5);
     }
 } */
+.continfo{
+    visibility: hidden;
+}
+.contactmsgg{
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+}
+#contactmsg{
+    visibility: visible;
+    font-size: 20px;
+    width: 1000px;
+    animation: contmsg 0.5s ease-in;
+}
+@keyframes contmsg {
+    0%{
+        transform: translateX(-100px);
+    }
+    70%{
+        transform: translateX(0px);
+    }
+}

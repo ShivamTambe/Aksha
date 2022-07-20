@@ -9,6 +9,13 @@ function Contactus(){
     const [phone, setPhone] = useState()
     const [org, setOrg] = useState()
     const [message, setMessage] = useState()
+    const [contact, setContact] = useState()
+
+
+    function Comedy(){
+        console.log('hii');
+        setContact("contactmsg");
+    }
     useEffect(() => {
         const script = document.createElement('script');
     
@@ -26,13 +33,15 @@ function Contactus(){
                     Host : "smtp.elasticemail.com",
                     Username : "g.a.b.r.i.ellkjam.al.e@gmail.com",
                     Password : "5CFB8495FC21EFEDAD52CF5DFD201D1DF24D",
-                    To : "shivamtambe545@gmail.com",
+                    To : "aksha@algoanalytics.com",
                     From : "g.a.b.r.i.ellkjam.al.e@gmail.com",
                     Subject : `Received Your Message`,
-                    Body : `Hey ${email} thanks for Feedbacking with us we will be looking into your response shortly.`
-                })
+                    Body : `Name : ${name},  Email : ${email}, Phone No. : ${phone}, Organization : ${org}, Message : ${message}`
+                }) 
                 .then(res => {
                     console.log(res);
+                    Comedy();
+                    window.location.reload ();
                 })
                 .catch(err => console.log(err))
             }
@@ -50,6 +59,7 @@ function Contactus(){
                         <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization *" required className="required"/>
                         <textarea value={message} onChange={(e) => setMessage(e.target.value)} name="" placeholder="Your Massage" id="" cols="20" rows="10"></textarea>
                         <button onClick={handleClick}  className="btn">Submit</button>
+                        <div className="continfo" id={contact} >Thank you for your message. We will reach out to you shortly.</div>
                     </form>
                 </div>
             </div>

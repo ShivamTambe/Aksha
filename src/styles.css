@@ -309,10 +309,18 @@
 .second{
     margin-left: 26px;
 }
-.video video {
+.video{
     position: relative;
     top: -70px;
+   }
+.video video {
+    position: relative;
+    /* top: -70px; */
 }
+    .play {
+        top: 226px;
+    }
+
 .slides{
     margin-left: 50px;
 }
@@ -701,6 +709,9 @@ right: -446px;
 .video video {
 width: 700px;
 }
+.video{
+    width: 700px;
+    }
 .sec1{
 font-size: 26px;
 width: 350px;
@@ -851,6 +862,9 @@ margin-top: -272px;
 .video video {
 width: 94vw;
 }
+.video{
+    width: 94vw;
+    }
 
 .sec1 {
     font-size: 30px;
@@ -1345,7 +1359,17 @@ font-size: 4.5rem;
 .aksha{
     font-size: 130px;
 }
+    .play {
+        top: 153px;
+        width: 50px;
+        height: 50px;
+    }
+    .play img{
+        width: 50px;
+        height: 50px;
+       }
 }
+
 
 @media (max-width:500px) and (min-width:100px){
 .logot {
@@ -1378,6 +1402,11 @@ font-size: 4.5rem;
     margin-top: -34px;
 }
 .video video {
+    width: 92vw;
+    height: 251px;
+}
+
+.video{
     width: 92vw;
     height: 251px;
 }
@@ -1581,6 +1610,11 @@ left: -31vw;
 position: relative;
 }
 .video video {
+    width: 97vw;
+    /* left: -16px; */
+    height: 237px;
+}
+.video{
     width: 97vw;
     left: -16px;
     height: 237px;
@@ -1950,6 +1984,9 @@ position: relative;
     .video video{
         height: 349px;
     }
+    .video{
+        height: 349px;
+    }
     .secinfo {
         left: -6vw;
     }
@@ -2275,6 +2312,9 @@ position: relative;
     }
     .second {
         margin-top: -245px;
+    }
+    .vidoe{
+        height: 272px;
     }
     .video video {
         height: 272px;
@@ -2625,4 +2665,10 @@ position: relative;
         #showtitle{
             left: -3vw;
         }
+    }
+
+    @media (max-width:800px) and (min-width:100px){
+            .secinfo{
+                margin-top: -58px;
+            }
     }

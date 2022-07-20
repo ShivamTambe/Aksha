@@ -6,3 +6,9 @@
 #invisible{
     visibility: hidden;
 }
+.visible2{
+    visibility: visible;
+}
+.invisible2{
+    visibility: hidden;
+}

@@ -13,7 +13,7 @@ function Contactus(){
 
 
     function Comedy(){
-        setContact("contactmsg"); 
+        // setContact("contactmsg"); 
         setInterval(()=>{
             window.location.reload ();
         }, 1000)
@@ -42,6 +42,8 @@ function Contactus(){
                 }) 
                 .then(res => {
                     console.log(res);
+                    setContact("contactmsg"); 
+                    Comedy();
                 })
                 .catch(err => console.log(err))
             }
@@ -60,7 +62,7 @@ function Contactus(){
                         <input value={phone} onChange={(e) => setPhone(e.target.value)} type="tel" placeholder="Moblie *" required className="required"/>
                         <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization *" required className="required"/>
                         <textarea value={message} onChange={(e) => setMessage(e.target.value)} name="" placeholder="Your Massage" id="" cols="20" rows="10"></textarea>
-                        <button  onClick={() => { handleClick(); Comedy();}} className="btn">Submit</button>
+                        <button  onClick={() => { handleClick()}} className="btn">Submit</button>
                         {/* <div className="contactmsgg" onClick={Comedy}>HELLO</div> */}
                     </form>
                 </div>

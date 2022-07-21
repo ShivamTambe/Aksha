@@ -21,8 +21,8 @@ body{
     flex-direction: column;
 }
 .logoimg img{
-    width: 115px;
-    position: absolute;
+    width: 72px;
+    position: fixed;
     top: 0;
     left:0;
     z-index: 12;
@@ -377,6 +377,8 @@ body{
     position: relative;
     left: 20px;
 }
+
+
 .title3{
         width: 270px;
         margin: 0 auto;
@@ -628,6 +630,9 @@ body{
     display: flex;
     justify-content: center;
 }
+.img77{
+    height: 200px;
+}
 .username{
     display: flex;
     justify-content: center;
@@ -871,6 +876,9 @@ body{
         /* filter: grayscale(); */
         filter: sepia(100%) hue-rotate(180deg) saturate(490%);
       }
+      .img77{
+        height: 200px;
+    }
 
    .play{
     width: 100px;
@@ -953,7 +961,12 @@ body{
     }
 } */
 .continfo{
+    position: absolute;
+    top: 40px;
     visibility: hidden;
+    font-size: 20px;
+    width: 1000px;
+    left: -217px;
 }
 .contactmsgg{
     width: 100px;
@@ -964,13 +977,29 @@ body{
     visibility: visible;
     font-size: 20px;
     width: 1000px;
-    animation: contmsg 0.5s ease-in;
+    text-align: center;
+    animation: contmsg 0.5s ease-in forwards;
 }
 @keyframes contmsg {
     0%{
-        transform: translateX(-100px);
+        transform: translateX(-20px);
     }
     70%{
         transform: translateX(0px);
     }
+}
+
+.appimg .img77{
+    height: 118px;
+    width: 90px;
+    filter: sepia(100%) hue-rotate(180deg) saturate(490%);
+}
+
+.invisi{
+    
+    width: 1px;
+    position: relative;
+    top: -100px;
+    height: 1px;
+    visibility: hidden;
 }

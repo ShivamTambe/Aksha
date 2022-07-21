@@ -13,8 +13,10 @@ function Contactus(){
 
 
     function Comedy(){
-        console.log('hii');
-        setContact("contactmsg");
+        setContact("contactmsg"); 
+        setInterval(()=>{
+            window.location.reload ();
+        }, 1000)
     }
     useEffect(() => {
         const script = document.createElement('script');
@@ -33,24 +35,24 @@ function Contactus(){
                     Host : "smtp.elasticemail.com",
                     Username : "g.a.b.r.i.ellkjam.al.e@gmail.com",
                     Password : "5CFB8495FC21EFEDAD52CF5DFD201D1DF24D",
-                    To : "aksha@algoanalytics.com",
+                    To : "shivamtambe545@gmail.com",
                     From : "g.a.b.r.i.ellkjam.al.e@gmail.com",
                     Subject : `Received Your Message`,
                     Body : `Name : ${name},  Email : ${email}, Phone No. : ${phone}, Organization : ${org}, Message : ${message}`
                 }) 
                 .then(res => {
                     console.log(res);
-                    Comedy();
-                    window.location.reload ();
                 })
                 .catch(err => console.log(err))
             }
       }
 
     return(
-        <div className="contact" id="7th" >
+        <div className="contact" >
+            <div className="invisi" id="7th"> </div>
              <div className="ainfo" data-aos="slide-right" data-aos-duration="8000">
                 <div className="contacttitle">Contact Us</div>
+                <div className="continfo" id={contact} >Thank you for your message. We will reach out to you shortly.</div>
                 <div className="contactform">
                     <form>
                         <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Full Name *" required className="required"/>
@@ -58,8 +60,8 @@ function Contactus(){
                         <input value={phone} onChange={(e) => setPhone(e.target.value)} type="tel" placeholder="Moblie *" required className="required"/>
                         <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization *" required className="required"/>
                         <textarea value={message} onChange={(e) => setMessage(e.target.value)} name="" placeholder="Your Massage" id="" cols="20" rows="10"></textarea>
-                        <button onClick={handleClick}  className="btn">Submit</button>
-                        <div className="continfo" id={contact} >Thank you for your message. We will reach out to you shortly.</div>
+                        <button  onClick={() => { handleClick(); Comedy();}} className="btn">Submit</button>
+                        {/* <div className="contactmsgg" onClick={Comedy}>HELLO</div> */}
                     </form>
                 </div>
             </div>

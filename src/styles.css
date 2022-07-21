@@ -2591,10 +2591,40 @@ position: relative;
         .hidee{
             right: 115px;
         }
+        .appimg .img77 {
+            position: relative;
+            left: 46px;
+        }
+        
+        
+        .test2 .experience {
+            position: relative;
+            left: -40px;
+            font-size: 15px;
+            margin-top: 30px;
+            text-align: justify;
+        }
+        .nameimg img {
+            width: 96px;
+            margin-top: 37px;
+        }
+        .test1 .experience {
+            text-align: justify;
+        }
+        .test1 img{
+            margin-top: 10px;
+        }
+        .test2 img{
+            margin-top: 50px;
+        }
     }
     @media (max-width:1000px) and (min-width:900px){
         .hidee{
             right: 100px;
+        }
+        .appimg .img77 {
+            position: relative;
+            left: 46px;
         }
     }
     @media (max-width:900px) and (min-width:800px){
@@ -2603,6 +2633,17 @@ position: relative;
             top: 96px;
         }
     }
+   
+    @media (max-width:900px) and (min-width:00px){
+    .appimg .img77 {
+        height: 237px;
+        width: 194px;
+        position: relative;
+        left: 134px;
+    }
+}
+
+
     @media (max-width:800px) and (min-width:700px){
         .hidee{
             right: 25px;
@@ -2672,3 +2713,58 @@ position: relative;
                 margin-top: -58px;
             }
     }
+
+    @media (max-width:1250px) and (min-width:1100px){
+        #contactmsg{
+            left: 142px;
+            top: -40px;
+        }
+    }
+
+@media (max-width:600px) and (min-width:500px) {
+    #contactmsg{
+        position: relative;
+        left: -15vw;
+    }
+}
+@media (max-width:500px) and (min-width:100px) {
+#contactmsg{
+    width: 300px;
+    font-size: 17px;
+    position: relative;
+    left: -3vw;
+}
+}
+    
+    
+@media (max-width:1200px) and (min-width:900px) {
+.spcefic li {
+    width: 372px;
+}
+}
+
+@media (max-width:40000px) and (min-width:1500px){
+    .appimg .img77 {
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media (max-width:700px) and (min-width:100px){
+.adis {
+    width: 291px;
+    left: 68px;
+    text-align: justify;
+}
+}
+@media (max-width:500px) and (min-width:100px){
+.adis{
+    left: 18px;
+}
+}
+
+@media (max-width:500px) and (min-width:100px){
+.adis{
+    left: -1px;
+}
+}

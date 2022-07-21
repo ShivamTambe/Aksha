@@ -2,7 +2,8 @@ import React from "react";
 
 function Additional(){
     return(
-        <div className="additional" id="44th">
+        <div className="additional">
+            <div className="invisi" id="44th"> </div>
             <div className="title3" data-aos="fade-down">APPLICATIONS</div>
             <div className="applications">
                 <div className="app1">
@@ -16,7 +17,7 @@ function Additional(){
                         <div className="appimg down">
                             <img src="/imgs/2nd.jpg" alt="" />
                         </div>
-                        <div className="apptitle down">VANDALISM AND THEFT</div>
+                        <div className="apptitle down">VANDALISM AND THEFT PREVENTION</div>
                     </div>
                     <div className="appfeatures img3" data-aos="fade-up">
                         <div className="appimg down3">
@@ -47,9 +48,9 @@ function Additional(){
                     </div>
                     <div className="appfeatures img7" data-aos="fade-up">
                         <div className="appimg">
-                            <img src="/imgs/7.png" alt="" />
+                            <img src="/imgs/7.jpg" className="img77" alt="" />
                         </div>
-                        <div className="apptitle">MATERIAL MANAGEMENT</div>
+                        <div className="apptitle">SUSPICIOUS ACTIVITY DETECTION</div>
                     </div>
                     <div className="appfeatures img8" data-aos="fade-left">
                         <div className="appimg">

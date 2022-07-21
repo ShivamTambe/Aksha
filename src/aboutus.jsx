@@ -2,7 +2,9 @@ import React from "react";
 
 function About() {
     return (
-        <div className="about" id="6th">
+        <div className="about">
+            <div className="invisi" id="6th"> </div>
+
             <div className="aboutimg" data-aos="flip-left" data-aos-offset="300">
                 <img src="/imgs/Algoanalytics logo.png" alt="" />
             </div>

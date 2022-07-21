@@ -67,9 +67,9 @@ function Corosoul(){
             window.location.reload ();
     }
     return(
-        <div className="corosoul" id="3rd">
+        <div className="corosoul">
            
-            
+            <div className="invisi" id="3rd"> </div>
             <div className="show" id={visiblee} onScroll={noscroll}>
                 <div className="hidee" onClick={Invisible}></div>
                 <div className="clicked_slide" onClick={Show}>

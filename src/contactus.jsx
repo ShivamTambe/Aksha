@@ -8,7 +8,7 @@ function Contactus(){
     const [email, setEmail] = useState()
     const [phone, setPhone] = useState()
     const [org, setOrg] = useState()
-    const [message, setMessage] = useState()
+    let [message, setMessage] = useState()
     const [contact, setContact] = useState()
 
 const NULL = undefined;
@@ -49,6 +49,10 @@ const NULL = undefined;
       },[])
       
       const handleClick = (e) => {
+        // e.preventDefault();
+        if(message === undefined){
+            message = " ";
+        }
             if(name && email && phone && org && message){
                 //eslint-disable-next-line
                 Email.send({
@@ -61,15 +65,15 @@ const NULL = undefined;
                     Body : `Name : ${name},  Email : ${email}, Phone No. : ${phone}, Organization : ${org}, Message : ${message}`
                 }) 
                 .then(res => {
+                    Comedy();
                     console.log(res);
                     console.log(org);
                     console.log(name);
                     console.log("HELLo");
-                    Comedy();
                 })
                 .catch(err => console.log(err))
             }
-            e.preventDefault();
+           
       }
 
     return(

@@ -11,12 +11,30 @@ function Contactus(){
     const [message, setMessage] = useState()
     const [contact, setContact] = useState()
 
-
+const NULL = undefined;
     function Comedy(){
-        // setContact("contactmsg"); 
-        setInterval(()=>{
-            window.location.reload ();
-        }, 1000)
+        if(name !==NULL){
+            if(email!==NULL){
+               if(phone!==NULL){
+                   if(org!==NULL){
+                    setContact("contactmsg"); 
+                   }
+               }
+            }
+       }
+        console.log(org);
+        console.log(name);
+        if(name !==NULL){
+            if(email!==NULL){
+               if(phone!==NULL){
+                   if(org!==NULL){
+                    setInterval(()=>{
+                        window.location.reload ();
+                    }, 2000)
+                   }
+               }
+            }
+       }
     }
     useEffect(() => {
         const script = document.createElement('script');
@@ -42,8 +60,9 @@ function Contactus(){
                 }) 
                 .then(res => {
                     console.log(res);
-                    setContact("contactmsg"); 
-                    Comedy();
+                    console.log(org);
+                    console.log(name);
+                    console.log("HELLo");
                 })
                 .catch(err => console.log(err))
             }
@@ -62,7 +81,7 @@ function Contactus(){
                         <input value={phone} onChange={(e) => setPhone(e.target.value)} type="tel" placeholder="Moblie *" required className="required"/>
                         <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization *" required className="required"/>
                         <textarea value={message} onChange={(e) => setMessage(e.target.value)} name="" placeholder="Your Massage" id="" cols="20" rows="10"></textarea>
-                        <button  onClick={() => { handleClick()}} className="btn">Submit</button>
+                        <button  onClick={() => { handleClick(); Comedy();}} className="btn">Submit</button>
                         {/* <div className="contactmsgg" onClick={Comedy}>HELLO</div> */}
                     </form>
                 </div>

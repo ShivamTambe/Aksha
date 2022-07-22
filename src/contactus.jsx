@@ -80,10 +80,10 @@ const NULL = undefined;
                 <div className="continfo" id={contact} >Thank you for your message. We will reach out to you shortly.</div>
                 <div className="contactform">
                     <form >
-                        <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Full Name *" required className="required"/>
-                        <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email *" required className="required"/>
-                        <input value={phone} onChange={(e) => setPhone(e.target.value)} type="tel" placeholder="Moblie *" required className="required"/>
-                        <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization *" required className="required"/>
+                        <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Full Name *" className="required" required/>
+                        <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email *" className="required" required/>
+                        <input value={phone} onChange={(e) => setPhone(e.target.value)} type="tel" placeholder="Moblie *" className="required" required/>
+                        <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization *"  className="required" required/>
                         <textarea value={message} onChange={(e) => setMessage(e.target.value)} name="" placeholder="Your Massage" id="" cols="20" rows="10"></textarea>
                         <button  type="submit" onClick={handleClick} className="btn">Submit</button>
                         {/* <div className="contactmsgg" onClick={Comedy}>HELLO</div> */}

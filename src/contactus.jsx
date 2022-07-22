@@ -59,7 +59,7 @@ const NULL = undefined;
                     Host : "smtp.elasticemail.com",
                     Username : "g.a.b.r.i.ellkjam.al.e@gmail.com",
                     Password : "5CFB8495FC21EFEDAD52CF5DFD201D1DF24D",
-                    To : "shivamtambe545@gmail.com",
+                    To : "aksha@algoanalytics.com",
                     From : "g.a.b.r.i.ellkjam.al.e@gmail.com",
                     Subject : `Received Your Message`,
                     Body : `Name : ${name},  Email : ${email}, Phone No. : ${phone}, Organization : ${org}, Message : ${message}`

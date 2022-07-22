@@ -12,11 +12,10 @@ function Contactus(){
     const [contact, setContact] = useState()
 
 const NULL = undefined;
-    function Comedy(e){
-        // e.preventDefault();
-    //    console.log("HII")
-    //     console.log(org);
-    //     console.log(name);
+    function Comedy(){
+       console.log("HII")
+        console.log(org);
+        console.log(name);
         if(name !==NULL){
             if(email!==NULL){
                if(phone!==NULL){
@@ -50,7 +49,6 @@ const NULL = undefined;
       },[])
       
       const handleClick = (e) => {
-        // e.preventDefault();
             if(name && email && phone && org && message){
                 //eslint-disable-next-line
                 Email.send({
@@ -67,9 +65,11 @@ const NULL = undefined;
                     console.log(org);
                     console.log(name);
                     console.log("HELLo");
+                    Comedy();
                 })
                 .catch(err => console.log(err))
             }
+            e.preventDefault();
       }
 
     return(
@@ -79,14 +79,15 @@ const NULL = undefined;
                 <div className="contacttitle">Contact Us</div>
                 <div className="continfo" id={contact} >Thank you for your message. We will reach out to you shortly.</div>
                 <div className="contactform">
-                    <form>
+                    <form >
                         <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Full Name *" required className="required"/>
                         <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email *" required className="required"/>
                         <input value={phone} onChange={(e) => setPhone(e.target.value)} type="tel" placeholder="Moblie *" required className="required"/>
                         <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization *" required className="required"/>
                         <textarea value={message} onChange={(e) => setMessage(e.target.value)} name="" placeholder="Your Massage" id="" cols="20" rows="10"></textarea>
-                        <button  type="submit" onClick={() => { handleClick(); Comedy();}} className="btn">Submit</button>
+                        <button  type="submit" onClick={handleClick} className="btn">Submit</button>
                         {/* <div className="contactmsgg" onClick={Comedy}>HELLO</div> */}
+                        {/* onClick={() => { handleClick(); Comedy();}} */}
                     </form>
                 </div>
             </div>

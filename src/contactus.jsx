@@ -49,7 +49,7 @@ const NULL = undefined;
       },[])
       
       const handleClick = (e) => {
-        // e.preventDefault();
+        e.preventDefault();
         if(message === undefined){
             message = " ";
         }

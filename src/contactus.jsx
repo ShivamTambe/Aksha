@@ -12,7 +12,11 @@ function Contactus(){
     const [contact, setContact] = useState()
 
 const NULL = undefined;
-    function Comedy(){
+    function Comedy(e){
+        // e.preventDefault();
+    //    console.log("HII")
+    //     console.log(org);
+    //     console.log(name);
         if(name !==NULL){
             if(email!==NULL){
                if(phone!==NULL){
@@ -30,7 +34,7 @@ const NULL = undefined;
                    if(org!==NULL){
                     setInterval(()=>{
                         window.location.reload ();
-                    }, 2000)
+                    }, 3000)
                    }
                }
             }
@@ -46,7 +50,7 @@ const NULL = undefined;
       },[])
       
       const handleClick = (e) => {
-        // e.preventDefault()
+        // e.preventDefault();
             if(name && email && phone && org && message){
                 //eslint-disable-next-line
                 Email.send({
@@ -81,7 +85,7 @@ const NULL = undefined;
                         <input value={phone} onChange={(e) => setPhone(e.target.value)} type="tel" placeholder="Moblie *" required className="required"/>
                         <input value={org} onChange={(e) => setOrg(e.target.value)} type="text" placeholder="Organization *" required className="required"/>
                         <textarea value={message} onChange={(e) => setMessage(e.target.value)} name="" placeholder="Your Massage" id="" cols="20" rows="10"></textarea>
-                        <button  onClick={() => { handleClick(); Comedy();}} className="btn">Submit</button>
+                        <button  type="submit" onClick={() => { handleClick(); Comedy();}} className="btn">Submit</button>
                         {/* <div className="contactmsgg" onClick={Comedy}>HELLO</div> */}
                     </form>
                 </div>
